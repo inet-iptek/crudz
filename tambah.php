@@ -39,7 +39,7 @@
         include "config.php";
         if(isset($_POST['btn'])) {
             $nama = val($_POST['nama']);
-            $kelas = val($_POST['alamat']);
+            $kelas = val($_POST['kelas']);
             $alamat = val($_POST['alamat']);
 
             if(empty($nama) || empty($kelas) || empty($alamat)) {
